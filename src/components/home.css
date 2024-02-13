@@ -23,6 +23,34 @@ body {
 
   }
   
+
+  .container1{
+    background-image: url('./img1.jpeg');
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-size: cover; /* Cover the entire container with the image */
+    background-position: center; /* Center the image within the container */
+    width: 20%; /* Adjust the width of the container */
+    height: 300px; /* Adjust the height of the container */
+
+  }
+  .container2{
+    background-image: url('./img2.jpeg');
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-size: cover; /* Cover the entire container with the image */
+    background-position: center; /* Center the image within the container */
+    width: 30%; /* Adjust the width of the container */
+    height: 300px; /* Adjust the height of the container */
+
+
+  }
+  .container3{
+    background-image: url('./img3.jpeg');
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-size: cover; /* Cover the entire container with the image */
+    background-position: center; /* Center the image within the container */
+    width: 20%; /* Adjust the width of the container */
+    height: 300px; /* Adjust the height of the container */
+  }
   .card {
     background-color: #ffffffbf;
     border-radius: 10px;
@@ -41,7 +69,3 @@ body {
     align-items: center;
   }
   
-  .resized-image {
-    max-width: 30%;
-    height: 100%;
-  }
