@@ -1,7 +1,5 @@
 import "./home.css"
-import img1 from './img1.jpeg'
-import img2 from './img2.jpeg'
-import img3 from './img3.jpeg'
+
 import React from "react"
 
 const Home = () => {
