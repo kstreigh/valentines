@@ -2,14 +2,14 @@ import "./home.css"
 import img1 from './img1.jpeg'
 import img2 from './img2.jpeg'
 import img3 from './img3.jpeg'
-
+import React from "react"
 
 const Home = () => {
     return (
       <div>
         <div className="homeContainer">
-          <h1 className="homeTitle">Happy Valentine's Day Loggan!</h1>
-          <div class ="container">
+          <h1 className="homeTitle">Happy Valentines Day Loggan!</h1>
+          <div className ="container">
           </div>
 
           </div>
