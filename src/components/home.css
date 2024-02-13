@@ -1,0 +1,47 @@
+body {
+    font-family: fantasy, sans-serif;
+    background-color: #e183a4;
+    margin: 0;
+    padding: 0;
+    height: 100%
+  }
+  
+  .homeTitle {
+    background-color: #e75480;
+    padding: 30px;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+  }
+
+  .container {
+    background-image: url('./turtwig.gif');
+    background-repeat: repeat; /* Adjust the size of the background image */
+    width: 100%; /* Adjust the width of the container */
+    height: 300px; /* Adjust the height of the container */
+
+  }
+  
+  .card {
+    background-color: #ffffffbf;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family:  'Lucida Handwriting', sans-serif;
+    font-size: 20px;
+    flex:1;
+    text-align: center;
+  }
+
+  .imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .resized-image {
+    max-width: 30%;
+    height: 100%;
+  }
