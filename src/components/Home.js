@@ -16,9 +16,12 @@ const Home = () => {
           <h1 className="homeTitle">Pictures of Us!!!! </h1>
 
           <div className="imageContainer">
-          <img src={img1} alt="img1" className="resized-image"/>
-          <img src={img2}alt="img2"  className="resized-image" />
-          <img src={img3} alt="img3" className="resized-image" />
+          <div className ="container1">
+          </div>
+          <div className ="container2">
+          </div>
+          <div className ="container3">
+          </div>
           </div>
           <h1 className="homeTitle">Things I Love About You!</h1>
           <h2 className="card">
