@@ -1,6 +1,6 @@
 body {
     font-family: fantasy, sans-serif;
-    background-color: #e183a4;
+    background-image: url('./hearts.jpg');
     margin: 0;
     padding: 0;
     height: 100%
@@ -52,7 +52,8 @@ body {
     height: 300px; /* Adjust the height of the container */
   }
   .card {
-    background-color: #ffffffbf;
+    background-image: url('./heart2.jpg');
+    background-color: rgba(155, 155, 155, 0.10);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -60,7 +61,16 @@ body {
     font-family:  'Lucida Handwriting', sans-serif;
     font-size: 20px;
     flex:1;
-    text-align: center;
+  }
+
+  .card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.25); /* Adjust the last value (0 to 1) for opacity */
   }
 
   .imageContainer {
